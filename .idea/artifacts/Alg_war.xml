@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Alg:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="me.ele.napos.alg.war">
+      <element id="artifact" artifact-name="Alg:war exploded" />
+    </root>
+  </artifact>
+</component>
