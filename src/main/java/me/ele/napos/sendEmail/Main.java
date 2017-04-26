@@ -1,8 +1,11 @@
+/*
 package me.ele.napos.sendEmail;
 
+*/
 /**
  * Created by jakoo on 21/04/2017.
- */
+ *//*
+
 public class Main {
     public static void main(String[] args) {
         //这个类主要是设置邮件
@@ -22,3 +25,4 @@ public class Main {
         //sms.sendHtmlMail(mailInfo);//发送html格式
     }
 }
+*/

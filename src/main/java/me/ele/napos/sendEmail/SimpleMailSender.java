@@ -1,3 +1,4 @@
+/*
 package me.ele.napos.sendEmail;
 
 import com.sun.xml.internal.org.jvnet.mimepull.MIMEMessage;
@@ -8,10 +9,12 @@ import javax.mail.internet.MimeMultipart;
 import java.util.Date;
 import java.util.Properties;
 
+*/
 /**
  * Created by jakoo on 21/04/2017.
  * 
- */
+ *//*
+
 public class SimpleMailSender {
 
     public boolean sendTextMail(MailSenderInfo mailInfo) {
@@ -59,3 +62,4 @@ public class SimpleMailSender {
 
     }
 }
+*/
