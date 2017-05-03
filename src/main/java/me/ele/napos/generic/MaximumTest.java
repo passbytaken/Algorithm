@@ -2,6 +2,7 @@ package me.ele.napos.generic;
 
 /**
  * Created by jakoo on 21/03/2017.
+ *
  */
 public class MaximumTest {
 
