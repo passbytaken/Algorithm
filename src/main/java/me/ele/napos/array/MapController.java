@@ -13,6 +13,8 @@ public class MapController {
         map.put("Name", "Tom");
         map.put("Key", "Aeir53diener33fsdfe");
         map.put("Num", "99");
+        map.put("Token", "eneid3j3jn4j");
+        map.put("Keeper", "2faAuthor");
 
         System.out.println("Traverse");
         for (String key : map.keySet()) {
@@ -23,6 +25,23 @@ public class MapController {
         for (Map.Entry<String, String> entry : map.entrySet()) {
             System.out.println("key is " + entry.getKey() + " and value is " + entry.getValue());
         }
+
+
+        System.out.println("=============================");
+        for (Map.Entry<String,String> entry : map.entrySet()) {
+            System.out.println("Maps : " + entry.getKey() + " Value : " + entry.getValue());
+        }
+
+        System.out.println("===========================");
+        map.forEach((k, v) -> System.out.println(" Maps : " + k + " Value : " + v) );
+
+        System.out.println("===========================");
+        map.forEach((k, v) -> {
+            System.out.println(" Maps : " + k + " Value : " + v);
+            if ("Token".equals(k)) {
+                System.out.println("Hello Token");
+            }
+        });
 
 
     }
