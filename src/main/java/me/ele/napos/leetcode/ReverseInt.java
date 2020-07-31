@@ -18,7 +18,7 @@ public class ReverseInt {
 
     public static void main(String[] args) {
         ReverseInt reverseInt = new ReverseInt();
-        int y = reverseInt.reverse(-123);
+        int y = reverseInt.reverse(-4567);
         System.out.println(y);
     }
 }

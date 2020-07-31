@@ -10,7 +10,7 @@ public class MapController {
     public static void main(String[] args) {
         Map<String, Integer> map = new HashMap<String, Integer>();
 
-        for(int i = 0; i < 10000; i++) {
+        for(int i = 0; i < 100; i++) {
             map.put("语文" + i, 1);
             map.put("数学" + i, 2);
             map.put("英语" + i, 3);
